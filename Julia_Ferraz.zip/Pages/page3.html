@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3 - Tag Style</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header {
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-bottom: 1px solid #e7e7e7;
+        }
+        
+        h1.titulo-principal {
+            color: #9b59b6;
+            text-align: center;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+        
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            border-left: 4px solid #9b59b6;
+            padding-left: 10px;
+        }
+        
+        .destaque {
+            background-color: #f4ecf7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulo-principal">Página com Tag Style</h1>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="page2.html">Página 2 (CSS Inline)</a></li>
+                <li><a href="page4.html">Página 4 (Arquivo CSS)</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Exemplo de CSS com Tag Style</h2>
+            <p>Nesta página, os estilos são definidos dentro da tag <strong>&lt;style&gt;</strong> no cabeçalho do documento HTML.</p>
+            
+            <div class="destaque">
+                <p>div estilizada com CSS através da tag style.</p>
+            </div>
+            
+            <p>Esta abordagem é útil quando queremos estilizar uma única página sem criar um arquivo externo.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy;Rodapé </p>
+    </footer>
+</body>
+</html>
