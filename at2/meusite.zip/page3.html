@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2: Formatação de Texto</title>
+</head>
+<body>
+    <header>
+        <img src="../img/logo.png" alt="Logo do Projeto">
+        <a href="../index.html">Voltar para a página principal</a>
+        <hr>
+    </header>
+
+    <main>
+        <h1>Exercício 2: Formatação de Texto e Blocos Pré-formatados</h1>
+        
+        <section>
+            <h2>Formatação de Texto</h2>
+            
+            <p><b>Texto em negrito com &lt;b&gt;</b> - usado apenas para estilo visual, sem importância semântica.</p>
+            
+            <p><strong>Texto importante com &lt;strong&gt;</strong> - além do estilo visual, indica que o conteúdo tem forte importância ou urgência.</p>
+            
+            <p><i>Texto em itálico com &lt;i&gt;</i> - usado para voz alternativa, termos técnicos, pensamentos, etc.</p>
+            
+            <p><em>Texto com ênfase usando &lt;em&gt;</em> - indica que as palavras devem ter ênfase na pronúncia quando lidas.</p>
+            
+            <p>Texto com <mark>palavra destacada</mark> usando a tag &lt;mark&gt; - como um marca-texto.</p>
+            
+            <p><small>Texto menor usando &lt;small&gt;</small> - ideal para notas de rodapé, avisos legais, etc.</p>
+            
+            <p>Texto com <del>palavra removida</del> e <ins>palavra inserida</ins> - usando &lt;del&gt; e &lt;ins&gt; para mostrar edições.</p>
+            
+            <p>Fórmula química: H<sub>2</sub>O - usando &lt;sub&gt; para subscrito.</p>
+            
+            <p>Equação matemática: X<sup>2</sup> + Y<sup>2</sup> = Z<sup>2</sup> - usando &lt;sup&gt; para sobrescrito.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Bloco de Texto Pré-formatado</h2>
+            <p>A tag &lt;pre&gt; mantém os espaços em branco e as quebras de linha exatamente como foram escritas no código-fonte, preservando a formatação original.</p>
+            
+            <pre>
+// Exemplo de código JavaScript
+function saudacao(nome) {
+    if (nome) {
+        console.log("Olá, " + nome + "!");
+    } else {
+        console.log("Olá, visitante!");
+    }
+}
+
+saudacao("Maria");
+            </pre>
+            
+            <pre>
+    /\_/\
+   ( o.o )
+    > ^ <
+    
+    Gatinho ASCII
+    ~~~~~~~~~~~~~
+            </pre>
+            
+            <pre>
++-------------------+
+|   CAIXA DE TEXTO  |
+|                   |
+|  Texto centralizado|
+|   nas bordas      |
++-------------------+
+            </pre>
+        </section>
+    </main>
+</body>
+</html>
